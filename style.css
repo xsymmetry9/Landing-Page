@@ -1,0 +1,135 @@
+body{
+   margin: 0;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   height: 400px;
+   padding:0;
+   background-color: #1F2937;
+   margin:0;
+}
+.header{
+    display: flex;
+    color: white;
+    height: 1000px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.Introduction{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.Introtext{
+    height: 300px;
+    width: 300px;
+    padding: 16px;
+}
+
+.picture1{
+    width: 200px;
+    height: 200px;
+    padding: 16px;   
+}
+.signup{
+    width: 60px;
+}
+.title{
+    font-family: #f9faf8;
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 16px; 
+}
+.subtext{
+    color: white;
+    padding: 8px;
+}
+
+.Information{
+    display: flex;
+    font-family: #1F2937;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+.info
+{
+    max-width: 200px;
+}
+
+.picture2{
+    width: 100px;
+    height: 100px;
+}
+
+.Inspiration{
+    background-color: #E5E7EB;
+    align-content: center;
+    flex-direction: flex-end;
+}
+.quote{
+    font-style: #1F2937;
+    font-style:italic;
+    font-size: 24px;
+    padding: 0px;
+    gap: 0px;
+    text-align: center;
+    margin: 16px 16px;
+    padding: 8px 16px;
+   
+}
+.byquote{
+    text-align: right;
+    padding: 8px 16px;
+}
+
+.footer{
+    background-color: #3882f6;
+    padding: 0;
+    margin:0;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    font-weight:100;
+  
+}
+
+.logo{
+    color: white;
+    font-weight:bold;
+    font-family: #f9faf8;
+    font-size: 24px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+a{
+    font-size: 18px;
+    font-family: #E5E7EB;
+    color: white;
+    font-weight: normal;
+    list-style-type: none;
+    text-decoration: none;
+}
+.footercontainer{
+    width: 500px;
+    padding: 0px;
+    background-color: green;
+    border-color: grey;
+    border-style: double;
+    border-width: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
